@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>cf8c345c-38d0-4fd7-b81f-a43c49c49854</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Guides\02.py</StartupFile>
+    <StartupFile>Guides\03_Grouping.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,14 +21,17 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Guides\01.py" />
-    <Compile Include="Guides\02.py" />
+    <Compile Include="Guides\01_Basics.py" />
+    <Compile Include="Guides\02_Dataframes.py" />
     <Compile Include="Pandas_Lessons.py" />
-    <Compile Include="Questions\Q01.py" />
+    <Compile Include="Questions\Q01_Looking at Data.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Guides\" />
     <Folder Include="Questions\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Guides\03_Grouping.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
