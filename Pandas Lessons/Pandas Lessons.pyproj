@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>cf8c345c-38d0-4fd7-b81f-a43c49c49854</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Guides\01_Basics.py</StartupFile>
+    <StartupFile>Questions\Task01_Currency Converter.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -26,6 +26,8 @@
     <Compile Include="Pandas_Lessons.py" />
     <Compile Include="Questions\Q01_Looking at Data.py" />
     <Compile Include="Questions\Q02_Summarising Data.py" />
+    <Compile Include="Questions\Task02_Flight Search.py" />
+    <Compile Include="Questions\Task01_Currency Converter.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Guides\" />
