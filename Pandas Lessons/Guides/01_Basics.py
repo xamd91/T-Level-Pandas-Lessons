@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 
 print("a series is like one column in a table.")
 print("if you open an excel document, everything in the column") 
