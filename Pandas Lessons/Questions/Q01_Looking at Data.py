@@ -1,7 +1,6 @@
 print("step 1")
 print("import the libraries you will need")
 import pandas as pd
-import numpy as np
 
 print("step 2")
 print("get the dataset")
